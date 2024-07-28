@@ -1,0 +1,31 @@
+Components
+-----------
+Layout.tsx: The main layout of the dashboard, including the sidebar and header.
+Sidebar.tsx: The sidebar navigation menu.
+Header.tsx: The header section of the dashboard.
+AnimatedButton.tsx: A button component with Framer Motion animations.
+LoadingSpinner.tsx: A full-page loading spinner component.
+
+Pages
+-----------
+Login.tsx: The login page with email and password fields, validation, and error handling.
+Dashboard.tsx: The main dashboard page (placeholder for actual dashboard content).
+
+Services
+-----------
+auth.tsx: Mocked login API for authentication.
+
+Store
+-----------
+index.tsx: Redux store configuration.
+authSlice.tsx: Redux slice for user authentication state.
+
+Optional Features
+-----------
+Redux
+-----------
+Redux is used for state management, which helps in managing the global state of the application, such as user authentication status. It makes the state predictable and easier to debug.
+
+TypeScript
+-----------
+TypeScript adds type safety to the project, reducing the chances of runtime errors and making the code more maintainable. It helps in catching errors early during development.
