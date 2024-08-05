@@ -3,11 +3,16 @@ import { FaFacebook, FaYoutube, FaReddit, FaApple, FaGoogle, FaStar } from "reac
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { TbWorld } from "react-icons/tb";
 import { RiVisaLine, RiMastercardFill } from "react-icons/ri";
+import { IoIosMore } from "react-icons/io";
 
-
+import { RiHome5Fill, RiSwordFill } from "react-icons/ri";
+import { GiMedalSkull } from "react-icons/gi";
+import { MdOutlineBolt } from "react-icons/md";
+import { SiMoonrepo } from "react-icons/si";
 
 const Footer = () => {
   return (
+    <>
     <footer className="hidden fixed bottom-0 w-full md:flex items-center justify-between px-5 py-2.5 bg-dark-bg">
       <div className='flex items-center'>
       <div className='flex gap-5 text-gray-400'>
@@ -31,6 +36,17 @@ const Footer = () => {
         <p className='text-xs'>PlayersAuction &copy; 2023</p>
       </div>
     </footer>
+    <footer className="md:hidden fixed bottom-0 w-[95%] px-10 py-4 bg-sky-950 rounded-3xl m-2.5">
+     <div className='flex justify-between text-gray-400'>
+       <RiHome5Fill size={24} />
+       <SiMoonrepo size={24} />
+       <RiSwordFill size={24} />
+       <GiMedalSkull size={24} />
+       <MdOutlineBolt size={24} />
+       <IoIosMore size={24} />
+     </div>
+   </footer>
+  </>
   );
 };
 

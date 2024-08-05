@@ -22,7 +22,7 @@ const Dashboard = () => {
     <Layout>
       <div className="flex">
         <div className='md:w-4/5'>
-          <div className='grid md:flex justify-between mt-40 md:mt-8 mx-6'>
+          <div className='grid md:flex justify-between mt-28 md:mt-8 mx-6'>
             <div>
               <img src={window.location.origin + '/warframe-logo.png'} alt="person" className="md:w-[240px] w-[170px]" />
             </div>
